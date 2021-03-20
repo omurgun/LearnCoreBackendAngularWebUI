@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learn-core-backend-angular-web-ui';
+  title : String = 'learn-core-backend-angular-web-ui';
+
+
 }
