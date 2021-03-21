@@ -8,13 +8,15 @@ import { UserComponent } from './components/user/user.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { CategoryComponent } from './components/category/category.component';
 import { from } from 'rxjs';
+import { CarComponent } from './components/car/car.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     NaviComponent,
-    CategoryComponent
+    CategoryComponent,
+    CarComponent
   ],
   imports: [
     BrowserModule,
